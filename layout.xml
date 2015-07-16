@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout scroll="none" light="normal:transparent;focus:transparent;active:transparent;color:black" dark="normal:transparent;focus:transparent;active:transparent;color:transparent" onlaunch="launch_message" ontap="new_turn">
+	<row>
+		<button id="a1" ontap="a1_tap" />
+		<button id="a2" ontap="a2_tap" />
+		<button id="a3" ontap="a3_tap" />
+	</row>
+	<row>
+		<button id="b1" ontap="b1_tap" />
+		<button id="b2" ontap="b2_tap" />
+		<button id="b3" ontap="b3_tap" />
+	</row>
+	<row>
+		<button id="c1" ontap="c1_tap" />
+		<button id="c2" ontap="c2_tap" />
+		<button id="c3" ontap="c3_tap" />
+	</row>
+</layout>
